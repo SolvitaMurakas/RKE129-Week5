@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-family: 'Song Myung', serif;
+}
+
+
+.intro-image{
+    background-attachment: fixed;
+    background-image: url('../img/muffin.webp');
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+}
+
+.intro-image_link a{
+    background-color: #b46f47a9;
+    border: 2px solid #b46f47;
+    color: #33190c;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.intro-image_link a:hover{
+     transform: scale(1.2);
+}
+
+.intro-text{
+    background-color: #c58762;
+    color: #33190c;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+
+.intro-text_textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.quality-image{
+    background-attachment: fixed;
+    background-image: url('../img/tee.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quality-image_link a{
+    background-color: #ae977d8b;
+    border: 2px solid #ae977d;
+    color: #33190c;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.quality-image_link a:hover{
+    transform: scale(1.2);
+}
+
+.quality-text{
+    background-color: #442e28;
+    color: #c58762;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+
+.quality-text_textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.team-image{
+    background-attachment: fixed;
+    background-image: url('../img/choco.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-image_link a{
+    background-color: #351b13a1;
+    border: 2px solid #351b13;
+    color: #988f78;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.team-image_link a:hover{
+    transform: scale(1.2);
+}
+
+.team-text{
+    background-color: #71553d;
+    color: #170d0a;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+}
+.team-text_textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+ 
+.footer{
+    height: 250px;
+    background-color: #875e40;
+    color: #351b13;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+.footer ul li{
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a{
+    color: #33190c;
+    text-decoration: none;
+}
+
+.footer ul li:hover{
+    transform: scale(1.2);
+}
